@@ -6,3 +6,4 @@ class Ram:
         self.maximum_occupancy = 0
 
     def refuel_tank(self):
+        print("GLUG GLUG, liquid dinosaur")

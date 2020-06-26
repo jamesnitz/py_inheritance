@@ -6,3 +6,4 @@ class Zero:
         self.maximum_occupancy = 0
 
     def charge_battery(self):
+        print("zip zip! Fully Charged")

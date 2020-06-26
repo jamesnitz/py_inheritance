@@ -6,3 +6,4 @@ class Cessna:
         self.maximum_occupancy = 0
 
     def refuel_tank(self):
+        print("glug. Time for take-off")

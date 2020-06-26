@@ -6,3 +6,4 @@ class Tesla:
         self.maximum_occupancy = 0
 
     def charge_battery(self):
+        print("zzzzzzzzzzzz. FULL POWER")
