@@ -1,5 +1,5 @@
-        # Electric motorcycle
-class Zero:
+from vehicle import Vehicle
+class Zero(Vehicle):
     def __init__(self):
         self.battery_kwh = 0
         self.main_color = 0
@@ -7,3 +7,6 @@ class Zero:
 
     def charge_battery(self):
         print("zip zip! Fully Charged")
+
+    def drive(self):
+        print("ZHOOM!")

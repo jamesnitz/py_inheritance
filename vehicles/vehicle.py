@@ -6,3 +6,6 @@ class Vehicle:
     def drive(self):
         print("Vroooom!")
 
+    def turn(self, direction):
+        print(f"The vehicle turns {direction}")
+
